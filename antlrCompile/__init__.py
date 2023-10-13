@@ -3,6 +3,9 @@ from abc import ABC, abstractmethod
 from pathlib import Path
 from collections import OrderedDict, defaultdict
 import threading
+from warnings import warn
+
+warn("We have moved from M$ GitHub to https://codeberg.org/UniGrammar/antlrCompile.py , read why on https://codeberg.org/KOLANICH/Fuck-GuanTEEnomo .")
 
 from .antlr import neededAntlrClasses, getAntlrPath, ANTLRLanguage
 from .core import CompilationResult
